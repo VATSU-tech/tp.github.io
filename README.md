@@ -1,4 +1,6 @@
-# TP : Opérations récursives (site statique)
+**Site en ligne**
+# [https://vatsu-tech.github.io/tp.github.io/](https://vatsu-tech.github.io/tp.github.io/)
+## TP : Opérations récursives (site statique)
 
 Ce petit projet est une page web qui montreles opérations récursives simples en JavaScript : somme, minimum, maximum, recherche et affichage d'une liste. L'application permet de saisir une liste (nombres ou textes) et d'exécuter ces opérations via des fonctions récursives implémentées dans `app.js`.
 
