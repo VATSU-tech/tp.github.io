@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Opérations récursives</title>
+</head>
+
+<body>
+<div class="container">
+  <h2>Operations récursives</h2>
+  
+  <label>Entrez une liste :</label>
+    <input type="text" id="liste" placeholder="ex: 4,7,2,9,1">
+    
+    <br><br>
+    
+    <label>Type des valeurs :</label>
+    <select id="type">
+      <option value="number">Nombres</option>
+        <option value="string">Textes</option>
+      </select>
+      
+    <br><br>
+    
+    <label>Choisissez une action :</label>
+    <select id="action">
+      <option value="somme">Somme</option>
+        <option value="min">Minimum</option>
+        <option value="max">Maximum</option>
+        <option value="recherche">Recherche</option>
+        <option value="affichage">Affichage</option>
+      </select>
+
+    <br><br>
+    
+    <label>Valeur à rechercher :</label>
+    <input type="text" id="valeurRecherche" placeholder="ex: 7">
+    
+    <br><br>
+
+    <button onclick="executer()">Exécuter</button>
+
+    <h3>Résultat :</h3>
+    <div id="resultat" style="font-weight:bold; color:blue;"></div>
+
+<script src="app.js"></script>
+</div>
+</body>
+</html>
